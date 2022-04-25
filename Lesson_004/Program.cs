@@ -4,6 +4,7 @@ int b = -a;
 Console.WriteLine("Ваши числа: ");
 while (b<=a)
 {
-    Console.WriteLine(b);
+    Console.Write(b);
+    Console.Write(", ");
     b = b + 1;
 }
